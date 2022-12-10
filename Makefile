@@ -7,7 +7,7 @@ SRC = drw.c dwm.c util.c
 OBJ = ${SRC:.c=.o}
 CC = clang
 
-all: config.h dwm
+all: options dwm
 
 options:
 	@echo dwm build options:
